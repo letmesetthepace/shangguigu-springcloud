@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 
 spring:
   application:
@@ -16,7 +16,7 @@ mybatis:
   type-aliases-package: com.wise.springcloud.entities
 eureka:
   instance:
-    instance-id: payment8001
+    instance-id: payment8002
     prefer-ip-address: true
   client:
     register-with-eureka: true
