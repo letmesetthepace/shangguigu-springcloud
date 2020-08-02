@@ -5,10 +5,10 @@ package com.wise.springcloud.controller;
 
 import com.wise.springcloud.entities.CommonResult;
 import com.wise.springcloud.entities.Payment;
+import com.wise.springcloud.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
-import springcloud.service.PaymentService;
 
 @RestController
 public class PaymentController {
