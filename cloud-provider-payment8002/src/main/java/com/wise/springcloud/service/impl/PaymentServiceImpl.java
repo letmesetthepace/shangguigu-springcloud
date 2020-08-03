@@ -1,12 +1,13 @@
-package com.wise.springcloud.service.impl; /**
+/**
  *
  */
+package com.wise.springcloud.service.impl;
 
 import com.wise.springcloud.dao.PaymentDao;
 import com.wise.springcloud.entities.Payment;
+import com.wise.springcloud.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import springcloud.service.PaymentService;
 
 @Service
 public class PaymentServiceImpl implements PaymentService {
