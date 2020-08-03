@@ -69,11 +69,11 @@ public class PaymentController {
 
     @GetMapping("/payment/feign/timeout")
     public String paymentFeignTimeOut(){
-        try{
-            TimeUnit.SECONDS.sleep(3);
-        }catch (InterruptedException e){
-            e.printStackTrace();
-        }
+//        try{
+//            TimeUnit.SECONDS.sleep(1);
+//        }catch (InterruptedException e){
+//            e.printStackTrace();
+//        }
         return serverPort;
     }
 }
