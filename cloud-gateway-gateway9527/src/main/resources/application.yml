@@ -25,7 +25,7 @@ spring:
             - Path=/payment/lb/** #断言 路径匹配的进行路由
 #            - After=2020-08-04T00:37:04.882+08:00[Asia/Shanghai]
 #            - Cookie=username,lm
-            - Header=X-Request-Id, \d+
+#            - Header=X-Request-Id, \d+
 
 eureka:
   instance:
